@@ -1,0 +1,379 @@
+Joining data with Spark by using Python code and Cloudera VM.
+
+1. Generating the Needed Files
+
+In a terminal of the Cloudera VM, opening a text editor and copying the lines of the files 
+(see the Annex: Provided Files section at the bottom) into the text editor:
+
+[cloudera@quickstart ~]$ gedit make_join2data.py
+[cloudera@quickstart ~]$ gedit make_data_join2.txt
+
+Creating a new directory on the HDFS file system:
+
+[cloudera@quickstart ~]$ hdfs dfs -mkdir /user/cloudera/input_spark
+
+Checking the current directory:
+
+[cloudera@quickstart ~]$ pwd
+/home/cloudera
+
+Copying the text file from the local filesystem to the HDFS filesystem:
+
+[cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/make_data_join2.txt /user/cloudera/input_spark
+
+Entering the following to see that the indentations line up correctly in the .py files:
+
+[cloudera@quickstart ~]$ more make_join2data.py
+
+Entering the following to make the .py files executable:
+
+[cloudera@quickstart ~]$ chmod +x make_join2data.py
+
+Generating some datasets using the scripts:
+
+[cloudera@quickstart ~]$ sh make_data_join2.txt
+
+Using HDFS commands to copy the 6 files created with the previous command into the new HDFS directory:
+
+[cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/join2_gennumA.txt /user/cloudera/input_spark
+[cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/join2_gennumB.txt /user/cloudera/input_spark
+[cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/join2_gennumC.txt /user/cloudera/input_spark
+[cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/join2_genchanA.txt /user/cloudera/input_spark
+[cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/join2_genchanB.txt /user/cloudera/input_spark
+[cloudera@quickstart ~]$ hdfs dfs -put /home/cloudera/join2_genchanC.txt /user/cloudera/input_spark
+
+Verifying that the files have been copied:
+
+[cloudera@quickstart ~]$ hdfs dfs -ls /user/cloudera/input_spark
+Found 7 items
+-rw-r--r--   1 cloudera cloudera       1714 2018-06-28 23:35 /user/cloudera/input_spark/join2_genchanA.txt
+-rw-r--r--   1 cloudera cloudera       3430 2018-06-28 23:36 /user/cloudera/input_spark/join2_genchanB.txt
+-rw-r--r--   1 cloudera cloudera       5152 2018-06-28 23:36 /user/cloudera/input_spark/join2_genchanC.txt
+-rw-r--r--   1 cloudera cloudera      17114 2018-06-28 23:27 /user/cloudera/input_spark/join2_gennumA.txt
+-rw-r--r--   1 cloudera cloudera      34245 2018-06-28 23:33 /user/cloudera/input_spark/join2_gennumB.txt
+-rw-r--r--   1 cloudera cloudera      51400 2018-06-28 23:34 /user/cloudera/input_spark/join2_gennumC.txt
+-rw-r--r--   1 cloudera cloudera        334 2018-06-28 23:05 /user/cloudera/input_spark/make_data_join2.txt
+
+Contents of the files.
+
+join2_gennum*.txt consist of <TV show, count> (A TV show title and the number of viewers)
+
+Example join2_gennum*.txt:
+
+Almost_News, 25
+Hourly_Show,30
+Hot_Cooking,7
+Almost_News, 35
+Postmodern_Family,8
+Baked_News,15
+Dumb_Games,60
+…
+
+join2_genchan*.txt consists of <TV show title, channel> (A TV show title and the channel it was on)
+
+Example join2_genchan*.txt:
+
+Almost_News, ABC
+Hourly_Show, COM
+Hot_Cooking, FNT
+Postmodern_Family, NBC
+Baked_News, FNT
+Dumb_Games, ABC
+…
+
+Note the following:
+* The show-to-channel relationship is Many-to-Many. In other words, each show might appear on 
+many channels, and each channel might broadcast many shows
+* TV show titles can appear multiple times, with different counts
+* A TV show and channel combination might appear multiple times
+
+ANNEX: PROVIDED FILES
+
+                    *** make_join2data.py ***
+
+#!/usr/bin/env python
+import sys
+
+# --------------------------------------------------------------------------
+# This file generates a random combination of titles and viewer counts, or channels  
+# --------------------------------------------------------------------------
+
+chans   = ['ABC','DEF','CNO','NOX','YES','CAB','BAT','MAN','ZOO','XYZ','BOB']
+sh1 =['Hot','Almost','Hourly','PostModern','Baked','Dumb','Cold','Surreal','Loud']
+sh2 =['News','Show','Cooking','Sports','Games','Talking','Talking']
+vwr =range(17,1053)
+
+chvnm=sys.argv[1]  #get number argument, if its n, do numbers not channels,
+
+lch=len(chans)
+lsh1=len(sh1)
+lsh2=len(sh2)
+lvwr=len(vwr)
+ci=1
+s1=2
+s2=3
+vwi=4
+ri=int(sys.argv[3])
+for i in range(0,int(sys.argv[2])):  #arg 2 is the number of lines to output
+
+    if chvnm=='n':  #no numuber
+        print('{0}_{1},{2}'.format(sh1[s1],sh2[s2],chans[ci]))
+    else:
+        print('{0}_{1},{2}'.format(sh1[s1],sh2[s2],vwr[vwi])) 
+    ci=(5*ci+ri) % lch   
+    s1=(4*s1+ri) % lsh1
+    s2=(3*s1+ri+i) % lsh2
+    vwi=(2*vwi+ri+i) % lvwr
+ 
+    if (vwi==4): vwi=5
+	
+                    *** make_data_join2.txt ***
+
+python make_join2data.py y 1000 13 > join2_gennumA.txt
+python make_join2data.py y 2000 17 > join2_gennumB.txt
+python make_join2data.py y 3000 19 > join2_gennumC.txt
+python make_join2data.py n 100  23 > join2_genchanA.txt
+python make_join2data.py n 200  19 > join2_genchanB.txt
+python make_join2data.py n 300  37 > join2_genchanC.txt	
+
+2. Goal
+
+Find out the total number of viewers for each for the channel BAT.
+
+3. Reading Shows Files
+
+In a second terminal of the Cloudera VM, giving the command to open the pyspark shell:
+
+[cloudera@quickstart ~]$ PYSPARK_DRIVER_PYTHON=ipython pyspark
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 1.6.0
+      /_/
+
+Using Python version 2.6.6 (r266:84292, Jul 23 2015 15:22:56)
+SparkContext available as sc, HiveContext available as sqlContext.
+In [1]:
+					
+Reading the files into Spark with a pattern matching (the ? will match either A, B or C):
+
+In [1]: show_views_file = sc.textFile("/user/cloudera/input_spark/join2_gennum?.txt")
+
+Checking what Spark is doing by copying some elements of an RDD back to the driver:
+
+In [2]: show_views_file.take(2)
+Out[2]: [u'Hourly_Sports,21', u'PostModern_Show,38']
+
+The output is the first two elements of the dataset: [u'Hourly_Sports,21', u'PostModern_Show,38']
+
+4. Parsing Shows Files
+					
+Writing a function that splits and parses each line of the dataset.
+
+In [3]: def split_show_views(line):
+            line = line.strip() # stripping out spaces from the input line
+			key_value = line.split(",") # splitting the input line in show and views based on the comma
+			show = key_value[0]
+			views = key_value[1]
+			views = int(views) # turning the views into an integer
+            return (show, views)
+	
+Using this function to transform the input RDD:
+
+In [4]: show_views = show_views_file.map(split_show_views)
+
+Checking the show_views RDD:
+
+In [5]: show_views.take(10)
+Out[5]: 
+[(u'Hourly_Sports', 21),
+ (u'PostModern_Show', 38),
+ (u'Surreal_News', 73),
+ (u'Dumb_Cooking', 144),
+ (u'Cold_Talking', 287),
+ (u'Almost_Talking', 574),
+ (u'Loud_News', 113),
+ (u'Hot_Talking', 228),
+ (u'Baked_Games', 459),
+ (u'Hourly_Talking', 922)]
+
+5. Reading and Parsing Channel Files
+					
+Reading the files into Spark with a pattern matching as done earlier with the Show Files:
+
+In [6]: show_channel_file = sc.textFile("/user/cloudera/input_spark/join2_genchan?.txt")
+					
+Writing a function to parse each line of the dataset:
+
+In [7]: def split_show_channel(line):
+            line = line.strip() # stripping out spaces from the input line
+			key_value = line.split(",") # splitting the input line in show and channel based on the comma
+			show = key_value[0]
+			channel = key_value[1]
+            return (show, channel)
+	
+Using the function to parse the channel files:
+
+In [8]: show_channel = show_channel_file.map(split_show_channel)
+
+Checking the show_channel RDD:
+
+In [9]: show_channel.take(10)
+Out[9]: 
+[(u'Hourly_Sports', u'DEF'),
+ (u'Baked_News', u'BAT'),
+ (u'PostModern_Talking', u'XYZ'),
+ (u'Loud_News', u'CNO'),
+ (u'Almost_Show', u'ABC'),
+ (u'Hot_Talking', u'DEF'),
+ (u'Dumb_Show', u'BAT'),
+ (u'Surreal_Show', u'XYZ'),
+ (u'Cold_Talking', u'CNO'),
+ (u'Hourly_Cooking', u'ABC')]
+
+6. Joining the Two Datasets
+					
+Using the join transformation to join the 2 datasets using the show name as the key:
+
+In [10]: joined_dataset = show_views.join(show_channel)
+
+Checking the joined file:
+
+In [11]: joined_dataset.take(10)
+Out[11]: 
+[(u'PostModern_Cooking', (1038, u'DEF')),
+ (u'PostModern_Cooking', (1038, u'CNO')),
+ (u'PostModern_Cooking', (1038, u'CNO')),
+ (u'PostModern_Cooking', (1038, u'NOX')),
+ (u'PostModern_Cooking', (1038, u'MAN')),
+ (u'PostModern_Cooking', (1038, u'MAN')),
+ (u'PostModern_Cooking', (1038, u'XYZ')),
+ (u'PostModern_Cooking', (1038, u'BAT')),
+ (u'PostModern_Cooking', (1038, u'CAB')),
+ (u'PostModern_Cooking', (1038, u'DEF'))]
+
+7. Finding out the total viewers of each show on channel BAT
+ 
+Finding the total viewers by channel and by show: creating a RDD with the channel and the show as the key and  
+viewer counts as the value.
+
+In [12]: def create_new_key(line):              
+			 show = line[0] # Extracting by indexing
+			 views = line[1][0] # Extracting by indexing
+			 channel = line[1][1] # Extracting by indexing
+			 key = channel + " " + show # Defining the new key
+			 value = views
+             return (key, value)
+
+Applying this function to the joined dataset to create an RDD of channel, show and views:
+
+In [13]: channel_show_views = joined_dataset.map(create_new_key)
+
+Checking the new file:
+
+In [14]: channel_show_views.take(10) 
+Out[14]: 
+[(u'DEF', u'PostModern_Cooking', 1038),
+ (u'CNO', u'PostModern_Cooking', 1038),
+ (u'CNO', u'PostModern_Cooking', 1038),
+ (u'NOX', u'PostModern_Cooking', 1038),
+ (u'MAN', u'PostModern_Cooking', 1038),
+ (u'MAN', u'PostModern_Cooking', 1038),
+ (u'XYZ', u'PostModern_Cooking', 1038),
+ (u'BAT', u'PostModern_Cooking', 1038),
+ (u'CAB', u'PostModern_Cooking', 1038),
+ (u'DEF', u'PostModern_Cooking', 1038)]
+
+Note that the result is overestimating the views of each channel since those views were originally 
+contained in the file giving the views for each show (no matter in what channel the show was transmitted). 
+
+Summing all of the viewers for each channel and each show.
+
+Creating the sum function:
+
+In [15]: def sum(a, b):
+             return a + b
+
+Applying the function to the data set:			 
+			 
+In [16]: result = channel_show_views.reduceByKey(sum)
+
+Copying the results back to the Driver with take:
+
+In [17]: result.take(10)
+Out[17]:
+[(u'MAN Surreal_Show', 48462),
+ (u'BAT Almost_News', 93184),
+ (u'ABC Surreal_Sports', 46834),
+ (u'DEF Cold_Talking', 379924),
+ (u'XYZ Hot_Show', 108756),
+ (u'BOB Dumb_News', 52233),
+ (u'BOB Loud_News', 49166),
+ (u'MAN Hourly_Sports', 54050),
+ (u'ABC Hot_Games', 50228),
+ (u'BOB Dumb_Show', 53824),]
+
+Creating a function that filters the lines related to the BAT channel:
+ 
+In [18]: def starts_with_bat(line):
+             string = line[0]
+			 string = str(string) # Making sure the string is a string
+             return string.startswith("BAT")
+			 
+Applying the function to the result with the filter transformation:
+
+In [19]: result.filter(starts_with_bat).collect()
+Out[19]: 
+[(u'BAT Almost_News', 93184),
+ (u'BAT Hot_Talking', 197620),
+ (u'BAT PostModern_Games', 50644),
+ (u'BAT Almost_Sports', 98614),
+ (u'BAT Baked_News', 94422),
+ (u'BAT Almost_Cooking', 49501),
+ (u'BAT Cold_Talking', 284943),
+ (u'BAT Baked_Games', 51604),
+ (u'BAT Hourly_Sports', 54050),
+ (u'BAT Hourly_Show', 96566),
+ (u'BAT Almost_Games', 49237),
+ (u'BAT PostModern_Cooking', 50648),
+ (u'BAT PostModern_Sports', 100408),
+ (u'BAT Surreal_Cooking', 51880),
+ (u'BAT Hourly_News', 50604),
+ (u'BAT Cold_Cooking', 51932),
+ (u'BAT Baked_Cooking', 48994),
+ (u'BAT Hot_Show', 54378),
+ (u'BAT Dumb_Talking', 207788),
+ (u'BAT Loud_News', 98332),
+ (u'BAT Baked_Talking', 285309),
+ (u'BAT Almost_Show', 50202),
+ (u'BAT Baked_Show', 48413),
+ (u'BAT Surreal_Games', 53681),
+ (u'BAT Cold_Sports', 104010),
+ (u'BAT Dumb_Show', 107648),
+ (u'BAT Dumb_News', 104466),
+ (u'BAT Hourly_Cooking', 54208),
+ (u'BAT PostModern_Show', 48775),
+ (u'BAT Surreal_Show', 48462),
+ (u'BAT Surreal_Talking', 328074),
+ (u'BAT Dumb_Games', 101192),
+ (u'BAT Surreal_Sports', 93668),
+ (u'BAT Dumb_Cooking', 51647),
+ (u'BAT Hot_Sports', 98532),
+ (u'BAT Cold_News', 47924),
+ (u'BAT Hot_Cooking', 51694),
+ (u'BAT Loud_Talking', 204476),
+ (u'BAT Almost_Talking', 202854),
+ (u'BAT Baked_Sports', 103572),
+ (u'BAT Hourly_Games', 108292),
+ (u'BAT Hot_News', 112378),
+ (u'BAT Loud_Cooking', 48555),
+ (u'BAT Loud_Sports', 48220),
+ (u'BAT Loud_Show', 50820),
+ (u'BAT PostModern_Talking', 193636),
+ (u'BAT Loud_Games', 98964),
+ (u'BAT PostModern_News', 100042),
+ (u'BAT Hot_Games', 50228),
+ (u'BAT Hourly_Talking', 216326),
+ (u'BAT Cold_Games', 47524)]
+ 

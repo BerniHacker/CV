@@ -6,7 +6,7 @@ To access the HTML files, please use the links indicated below.
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------
-<code>DiChiaraBernardoCoverLetter10042018.pdf</code> Open cover letter | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCoverLetter10042018.pdf</sub>
+<code>DiChiaraBernardoCoverLetter30062018.pdf</code> Open cover letter | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCoverLetter30062018.pdf</sub>
 <code>DiChiaraBernardoCV_30062018.pdf</code> CV | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCV_30062018.pdf</sub>
 <code>Self-CreatedCoursePlan.pdf</code> My self-created personalized study plan containing courses from well-known Universities on Coursera platform. The courses have a perfect balance of theory and practice and include a final project assignment. | <sub>https://github.com/BerniHacker/CV/blob/master/Self-CreatedCoursePlan.pdf</sub>
 <code>A_Prediction_Model_Project_in_R.html</code> A Prediction Model in R. This project consists in building and comparing different prediction models. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/A_Prediction_Model_Project_in_R.html</sub>

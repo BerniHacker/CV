@@ -7,7 +7,7 @@ To access the HTML files, please use the links indicated below.
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------
 <code>DiChiaraBernardoCoverLetter10042018.pdf</code> Open cover letter | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCoverLetter10042018.pdf</sub>
-<code>DiChiaraBernardoCV_29062018.pdf</code> CV | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCV_29062018.pdf</sub>
+<code>DiChiaraBernardoCV_30062018.pdf</code> CV | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCV_30062018.pdf</sub>
 <code>Self-CreatedCoursePlan.pdf</code> My self-created personalized study plan containing courses from well-known Universities on Coursera platform. The courses have a perfect balance of theory and practice and include a final project assignment. | <sub>https://github.com/BerniHacker/CV/blob/master/Self-CreatedCoursePlan.pdf</sub>
 <code>A_Prediction_Model_Project_in_R.html</code> A Prediction Model in R. This project consists in building and comparing different prediction models. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/A_Prediction_Model_Project_in_R.html</sub>
 <code>Fitting_a_Multiple_Linear_Regression_Model.html</code> Fitting a Multiple Linear Regression Model.  In this document a data set is analyzed, a relevant research question is created and some exploratory data analysis is performed. Then a linear regression model is developed and this model is used to do some prediction. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/Fitting_a_Multiple_Linear_Regression_Model.html</sub>

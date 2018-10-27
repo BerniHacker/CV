@@ -4,6 +4,10 @@ This repository contains my CV and related files.
 
 To access the HTML files, please use the links indicated below.
 
+> Latest addition:
+
+<code>Creating_a_Customized_Visualization.html</code> This project is a Python implementation of an idea discussed in a paper from Ferreira, Fisher and Konig, which allows visualizing a plot that helps in making judgements about probabilistic data generated through samples. It produces an interactive plot. (In order to try the interactive feature, copy and paste the code to your Jupyter Notebool environment.) | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Creating_a_Customized_Visualization.html</sub>
+
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------
 <code>DiChiaraBernardoCoverLetter.pdf</code> Open cover letter | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCoverLetter19102018.pdf</sub>

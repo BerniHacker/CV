@@ -8,7 +8,7 @@ To access the HTML files, please use the links indicated below.
 This project is a Python implementation of an idea discussed in a paper from Ferreira, Fisher and Konig, which allows visualizing a plot that helps in making judgements about probabilistic data generated through samples. It produces an interactive plot. (In order to test the interactive feature, copy and paste the source code to your Jupyter Notebook environment.)
 <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Creating_a_Customized_Visualization.html</sub>
 
-**CV and Related Files**
+### CV and Related Files
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------
@@ -17,7 +17,7 @@ File Name and Description                                             | File Lin
 <code>Self-CreatedCoursePlan.pdf</code> My self-created personalized study plan containing courses from well-known Universities on Coursera platform. The courses have a perfect balance of theory and practice and include a final project assignment. | <sub>https://github.com/BerniHacker/CV/blob/master/Self-CreatedCoursePlan.pdf</sub>
 <code>LinkedIn Profile</code> | <sub>http://fi.linkedin.com/in/bernardodichiara</sub>
 
-**Porfolio of Data Analytics Projects**
+### Porfolio of Data Analytics Projects
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------

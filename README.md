@@ -1,6 +1,6 @@
 # CV
 
-This repository contains my CV and my porfolio of data analytics projects.
+This repository contains my CV and my portfolio of data analytics projects.
 
 To access the HTML files, please use the links indicated below.
 
@@ -17,7 +17,7 @@ File Name and Description                                             | File Lin
 <code>Self-CreatedCoursePlan.pdf</code> My self-created personalized study plan containing courses from well-known Universities on Coursera platform. The courses have a perfect balance of theory and practice and include a final project assignment. | <sub>https://github.com/BerniHacker/CV/blob/master/Self-CreatedCoursePlan.pdf</sub>
 <code>LinkedIn Profile</code> | <sub>http://fi.linkedin.com/in/bernardodichiara</sub>
 
-### Porfolio of Data Analytics Projects
+### Portfolio of Data Analytics Projects
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------

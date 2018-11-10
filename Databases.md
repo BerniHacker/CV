@@ -1,4 +1,4 @@
-# Databases
+# Databases (SQL, Hadoop)
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------

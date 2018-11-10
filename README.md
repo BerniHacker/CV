@@ -9,7 +9,7 @@ This repository contains my CV and links to my portfolio of data analytics proje
 - R Programming
 - Python Programming
 
-Note that a single project might be listed under more than one topic (for example, a project might consist in data cleansing and data visualization).
+Note that a single project might be listed under more than one topic (for example, a project where inferential methods are used contains also data cleansing and data visualization).
 
 To access the HTML files, please use the links contained in the md files.
 

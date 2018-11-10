@@ -1,4 +1,4 @@
-# Data CLeansing and Data Preparation
+# Data Cleansing and Data Preparation
 
 File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------

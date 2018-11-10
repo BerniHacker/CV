@@ -42,15 +42,3 @@ Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV
 Databases (SQL, Hadoop) | <sub> https://github.com/BerniHacker/CV/blob/master/Databases.md </sub>
 R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
 Python Programming | <sub> https://github.com/BerniHacker/CV/blob/master/Python.md </sub>
-
-OLD BELOW
-
-<code>A_Prediction_Model_Project_in_R.html</code> This project consists in building and comparing different prediction models by using R. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/A_Prediction_Model_Project_in_R.html</sub>
-<code>Fitting_a_Multiple_Linear_Regression_Model.html</code> In this document a data set is analyzed, a relevant research question is created and some exploratory data analysis is performed. Then a linear regression model is developed and this model is used to do some prediction. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/Fitting_a_Multiple_Linear_Regression_Model.html</sub>
-<code>A_Data_Analysis_Project_in_R.html</code> This study uses publicly available data to create a research question for which first some exploratory data analysis is done and then inferential statistics is performed to verify if the possible correlations that have been found are statistically relevant. The file has been produced in R by using RStudio. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/A_Data_Analysis_Project_in_R.html</sub>
-<code>A_Programming_Project_in_R.html</code> This project consists in creating a function and gives an example of my programming skills in R. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/A_Programming_Project_in_R.html</sub>
-<code>Python</code> A link to a folder with Python scripts, Data Manipulation projects by using Pandas and Data Visualization project using Matplotlib | <sub>https://github.com/BerniHacker/Python/blob/master/README.md</sub>
-<code>SQL</code> A link to a folder with SQL related files | <sub>https://github.com/BerniHacker/SQL/blob/master/README.md</sub>
-<code>Getting and Cleaning Data Project</code> This is a link to a repository containing a script to upload, clean and prepare some data sets. A Code Book is also contained. | <sub>https://github.com/BerniHacker/GettingAndCleaningData</sub>
-<code>A_MapReduce_Job_in_Python.txt</code> Joining data with MapReduce by using streaming with Python code and Cloudera VM. | <sub>https://github.com/BerniHacker/CV/blob/master/A_MapReduce_Job_in_Python.txt</sub>
-<code>A_Spark_Job_in_Python.txt</code> Joining data with Spark by using Python code and Cloudera VM. | <sub>https://github.com/BerniHacker/CV/blob/master/A_Spark_Job_in_Python.txt</sub>

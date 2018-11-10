@@ -1,4 +1,4 @@
-# Statistics: Interential Methods
+# Statistics: Inferential Methods
 
 File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------

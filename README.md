@@ -1,8 +1,20 @@
+# THIS PAGE IS UNDER REVOVATION DURING THE WEEKEND. PLESEE BE PATIENT
+
 # CV
 
-This repository contains my CV and my portfolio of data analytics projects.
+This repository contains my CV and links to my portfolio of data analytics projects. Those links are grouped under the following topics:
 
-To access the HTML files, please use the links indicated below.
+- Data Cleansing and Data Preparation
+- Data Visualization
+- Statistics: Inferential Methods
+- Prediction Models and Machine Learning
+- Databases (SQL, Hadoop)
+- R Programming
+- Python Programming
+
+Note that a single project might be listed under more than one topic (for example, a project might consist in data cleansing and data visualization).
+
+To access the HTML files, please use the links contained in the md files.
 
 > NEW! (06.11.2018): <code>Time_Use_in_Finland</code> A Data Cleansing and Visualization Project in Python. | <sub>https://github.com/BerniHacker/Time_Use_in_Finland/blob/master/README.md</sub>
 
@@ -12,7 +24,7 @@ This project is a Python implementation of an idea discussed in a paper from Fer
 
 ### CV and Related Files
 
-File Name and Description                                             | File Link   
+File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------
 <code>DiChiaraBernardoCoverLetter.pdf</code> Open cover letter | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCoverLetter_29102018.pdf</sub>
 <code>DiChiaraBernardoCV.pdf</code> CV | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCV_08112018.pdf</sub>
@@ -21,8 +33,18 @@ File Name and Description                                             | File Lin
 
 ### Portfolio of Data Analytics Projects
 
-File Name and Description                                             | File Link   
+Topic                                             | Link   
 --------------------------------------------------------------------- | ----------
+Data Cleansing and Data Preparation | <sub> https://github.com/BerniHacker/CV/blob/master/DataPreparation.md </sub>
+Data Visualization | <sub> https://github.com/BerniHacker/CV/blob/master/DataVisualization.md </sub>
+Statistics: Inferential Methods | <sub> https://github.com/BerniHacker/CV/blob/master/InferentialMethods.md </sub>
+Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV/blob/master/MachineLearning.md </sub>
+Databases (SQL, Hadoop) | <sub> https://github.com/BerniHacker/CV/blob/master/Databases.md </sub>
+R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
+Python Programming | <sub> https://github.com/BerniHacker/CV/blob/master/Python.md </sub>
+
+OLD BELOW
+
 <code>A_Prediction_Model_Project_in_R.html</code> This project consists in building and comparing different prediction models by using R. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/A_Prediction_Model_Project_in_R.html</sub>
 <code>Fitting_a_Multiple_Linear_Regression_Model.html</code> In this document a data set is analyzed, a relevant research question is created and some exploratory data analysis is performed. Then a linear regression model is developed and this model is used to do some prediction. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/Fitting_a_Multiple_Linear_Regression_Model.html</sub>
 <code>A_Data_Analysis_Project_in_R.html</code> This study uses publicly available data to create a research question for which first some exploratory data analysis is done and then inferential statistics is performed to verify if the possible correlations that have been found are statistically relevant. The file has been produced in R by using RStudio. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/CV/blob/master/A_Data_Analysis_Project_in_R.html</sub>

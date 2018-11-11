@@ -1,6 +1,6 @@
-This is a list of few of my data analytics projects in which Inferential Methods are used.
-
 # Statistics: Inferential Methods
+
+This is a list of few of my data analytics projects in which Inferential Methods are used.
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------

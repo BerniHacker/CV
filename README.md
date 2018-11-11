@@ -2,7 +2,7 @@
 
 This repository contains my CV and links to my portfolio of data analytics projects. Those links are grouped under the following topics:
 
-- Data Cleansing, Data Preparation and Data Visualization
+- Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization
 - Statistics: Inferential Methods
 - Prediction Models and Machine Learning
 - Databases (SQL, Hadoop)
@@ -23,7 +23,7 @@ This project is a Python implementation of an idea discussed in a paper from Fer
 
 Topic                                             | Link   
 --------------------------------------------------------------------- | ----------
-Data Cleansing, Data Preparation and Data Visualization | <sub> https://github.com/BerniHacker/CV/blob/master/DataPreparation.md </sub>
+Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization | <sub> https://github.com/BerniHacker/CV/blob/master/DataPreparation.md </sub>
 Statistics: Inferential Methods | <sub> https://github.com/BerniHacker/CV/blob/master/InferentialMethods.md </sub>
 Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV/blob/master/MachineLearning.md </sub>
 Databases (SQL, Hadoop) | <sub> https://github.com/BerniHacker/CV/blob/master/Databases.md </sub>

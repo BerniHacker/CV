@@ -1,6 +1,6 @@
-This is a list of few of my data analytics projects which contain programming in Python.
-
 # Python Programming
+
+This is a list of few of my data analytics projects which contain programming in Python.
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------

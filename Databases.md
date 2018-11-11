@@ -1,6 +1,6 @@
-This is a lits of few of my data analytics projects which are related to databases.
-
 # Databases (SQL, Hadoop)
+
+This is a lits of few of my data analytics projects which are related to databases.
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------

@@ -1,6 +1,6 @@
-This is a list of few of my data analytics projects which are related to Prediction Models and Machine Learning.
-
 # Prediction Models and Machine Learning
+
+This is a list of few of my data analytics projects which are related to Prediction Models and Machine Learning.
 
 File Name and Description                                             | File Link   
 --------------------------------------------------------------------- | ----------

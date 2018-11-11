@@ -1,4 +1,4 @@
-# Data Cleansing and Data Preparation
+# Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization
 
 File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------

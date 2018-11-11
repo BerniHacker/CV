@@ -1,6 +1,6 @@
-This is a list of few of my data analytics projects which contain Data Cleansing, Data Preparation and Data Visualization.
-
 # Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization
+
+This is a list of few of my data analytics projects which contain Data Cleansing, Data Preparation and Data Visualization.
 
 File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------

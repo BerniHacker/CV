@@ -1,3 +1,5 @@
+This is a lits of few of my data analytics projects which are related to databases.
+
 # Databases (SQL, Hadoop)
 
 File Name and Description                                             | File Link   

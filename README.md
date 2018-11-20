@@ -6,8 +6,8 @@ This repository contains my CV and links to my portfolio of data analytics proje
 - Statistics: Inferential Methods
 - Prediction Models and Machine Learning
 - Databases (SQL, Hadoop)
-- R Programming
 - Python Programming
+- R Programming
 
 Note that a single project might be listed under more than one topic (for example, a project where inferential methods are used contains also data cleansing and data visualization).
 

@@ -19,7 +19,7 @@ To access the HTML files, please use the links contained in the md files.
 
 > NEW! (19.11.2018): <code>Extracting_XML_Data.py</code> This program prompts for a URL, reads the XML data from that URL, extracts some data and does some calculation. | <sub>https://github.com/BerniHacker/Python/blob/master/Extracting_XML_Data.py</sub>
 
-> NEW! (15.11.2018): <code>Scraping_Web_Pages.py</code> The program asks the user to insert a URL and then reads the HTML, searches for a link that is in a user-provided position respect to the top of the page and follows that link. The process is repeated a user-defined number of times and returns the visible text corresponding to the last found link. Validation of user input is performed. | <sub>https://github.com/BerniHacker/Python/blob/master/Scraping_Web_Pages.py</sub>
+> NEW! (15.11.2018): <code>Scraping_Web_Pages.py</code> The program asks the user to insert a URL, reads the HTML, searches for a link that is in a user-provided position respect to the top of the page and follows that link. The process is repeated a user-defined number of times and returns the visible text corresponding to the last found link. Validation of user input is performed. | <sub>https://github.com/BerniHacker/Python/blob/master/Scraping_Web_Pages.py</sub>
 
 ### Portfolio of Data Analytics Projects
 

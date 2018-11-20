@@ -29,8 +29,8 @@ Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualizati
 Statistics: Inferential Methods | <sub> https://github.com/BerniHacker/CV/blob/master/InferentialMethods.md </sub>
 Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV/blob/master/MachineLearning.md </sub>
 Databases (SQL, Hadoop) | <sub> https://github.com/BerniHacker/CV/blob/master/Databases.md </sub>
-R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
 Python Programming | <sub> https://github.com/BerniHacker/CV/blob/master/Python.md </sub>
+R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
 
 ### CV and Related Files
 

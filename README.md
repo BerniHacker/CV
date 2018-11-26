@@ -13,6 +13,8 @@ Note that a single project might be listed under more than one topic (for exampl
 
 To access the HTML files, please use the links contained in the md files.
 
+> NEW! (26.11.2018): <code>Creating_Modifying_and_Querying_a_SQL_Table_with_Python.html</code> This application reads the mailbox data contained in a text file, counts the number of email messages per organization (i.e. domain name of the email address) and stores the result in a SQLite database. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Creating_Modifying_and_Querying_a_SQL_Table_with_Python.html</sub>
+
 > NEW! (19.11.2018): <code>Using_a_Web_Service.html</code> This program prompts for a location, contacts a web service, retrieves JSON data corresponding to the web service and the user-defined location and finds some data. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Using_a_Web_Service.html</sub>
 
 > NEW! (19.11.2018): <code>Extracting_JSON_Data.py</code> This program prompts for a URL, reads the JSON data from that URL, extracts some data and does some calculation. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Extracting_JSON_Data.html</sub>

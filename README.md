@@ -40,7 +40,6 @@ R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHack
 
 File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------
-<code>DiChiaraBernardoCoverLetter.pdf</code> Open cover letter | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCoverLetter_29102018.pdf</sub>
 <code>DiChiaraBernardoCV.pdf</code> CV | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCV_19112018.pdf</sub>
 <code>Self-CreatedCoursePlan.pdf</code> My self-created personalized study plan containing courses from well-known Universities on Coursera platform. The courses have a perfect balance of theory and practice and include a final project assignment. | <sub>https://github.com/BerniHacker/CV/blob/master/Self-CreatedCoursePlan.pdf</sub>
 <code>LinkedIn Profile</code> | <sub>http://fi.linkedin.com/in/bernardodichiara</sub>

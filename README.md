@@ -13,7 +13,7 @@ Note that a single project might be listed under more than one topic (for exampl
 
 To access the HTML files, please use the links contained in the md files.
 
-> NEW! (27.11.2018): <code>Working_with_Multiple_SQL_Tables_With_Python.html</code> This code creates a SQL databases with multiple tables, retrievies a JSON file called 'roster_data.json', extracts data from the file and uses it to popupate the database. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Working_with_Multiple_SQL_Tables_With_Python.html</sub>
+> NEW! (27.11.2018): <code>Working_with_Multiple_SQL_Tables_With_Python.html</code> This code creates a SQL database with multiple tables, retrieves a JSON file, extracts data from the file and uses it to populate the database. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Working_with_Multiple_SQL_Tables_With_Python.html</sub>
 
 > NEW! (26.11.2018): <code>Creating_Modifying_and_Querying_a_SQL_Table_with_Python.html</code> This application reads the mailbox data contained in a text file, counts the number of email messages per organization (i.e. domain name of the email address) and stores the result in a SQLite database. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/Python/blob/master/Creating_Modifying_and_Querying_a_SQL_Table_with_Python.html</sub>
 

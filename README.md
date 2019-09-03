@@ -14,7 +14,7 @@ Note that a single project might be listed under more than one topic (for exampl
 
 To access the HTML files, please use the links contained in the md files.
 
-> NEW! (03.09.2019): <code>shell_loop_template.sh</code> # This script is a template for running loops in Linux with consolle feedback. <sub>https://github.com/BerniHacker/Linux/blob/master/shell_loop_template.sh </sub>
+> NEW! (03.09.2019): <code>shell_loop_template.sh</code> This script is a template for running loops in Linux with consolle feedback. <sub>https://github.com/BerniHacker/Linux/blob/master/shell_loop_template.sh </sub>
 
 ### Portfolio of Data Analytics Projects
 

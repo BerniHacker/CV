@@ -28,7 +28,7 @@ Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV
 Databases (SQL, Hadoop) | <sub> https://github.com/BerniHacker/CV/blob/master/Databases.md </sub>
 Python Programming | <sub> https://github.com/BerniHacker/CV/blob/master/Python.md </sub>
 R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
-Shell Scripts | <sub> https://github.com/BerniHacker/Linux/blob/master/shell_loop_template.sh.txt </sub>
+Shell Scripts | <sub> https://github.com/BerniHacker/Linux/blob/master/shell_loop_template.sh </sub>
 
 ### CV and Related Files
 

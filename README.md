@@ -8,6 +8,7 @@ This repository contains my CV and links to my portfolio of data analytics proje
 - Databases (SQL, Hadoop)
 - Python Programming
 - R Programming
+- Shell scripts
 
 Note that a single project might be listed under more than one topic (for example, a project where inferential methods are used contains also data cleansing and data visualization).
 
@@ -27,6 +28,7 @@ Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV
 Databases (SQL, Hadoop) | <sub> https://github.com/BerniHacker/CV/blob/master/Databases.md </sub>
 Python Programming | <sub> https://github.com/BerniHacker/CV/blob/master/Python.md </sub>
 R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
+Shell Scripts | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
 
 ### CV and Related Files
 

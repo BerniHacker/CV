@@ -14,7 +14,7 @@ Note that a single project might be listed under more than one topic (for exampl
 
 To access the HTML files, please use the links contained in the md files.
 
-> NEW! (03.09.2019): <code>shell_loop_template.sh</code> This script is a template for running loops in Linux with consolle feedback. <sub>https://github.com/BerniHacker/Linux/blob/master/shell_loop_template.sh </sub>
+> NEW! (07.10.2019): <code>shell_loop_template.sh</code> This script is a template for running loops in Linux with consolle feedback. <sub>https://github.com/BerniHacker/Linux/blob/master/dump_SQL_table.sh </sub>
 
 ### Portfolio of Data Analytics Projects
 
@@ -26,7 +26,7 @@ Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV
 Databases (SQL, Hadoop) | <sub> https://github.com/BerniHacker/CV/blob/master/Databases.md </sub>
 Python Programming | <sub> https://github.com/BerniHacker/CV/blob/master/Python.md </sub>
 R Programming | <sub> http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Programming_Project_in_R.html </sub>
-Shell Scripts | <sub> https://github.com/BerniHacker/Linux/blob/master/shell_loop_template.sh </sub>
+Shell Scripts | <sub> https://github.com/BerniHacker/Linux/blob/master/dump_SQL_table.sh </sub>
 
 ### CV and Related Files
 

@@ -14,7 +14,7 @@ Note that a single project might be listed under more than one topic (for exampl
 
 To access the HTML files, please use the links contained in the md files.
 
-> NEW! (07.10.2019): <code>dump_SQL_table.sh</code> This script is a template for dumping a table from one MySQL database to another MySQL database. <sub>https://github.com/BerniHacker/Linux/blob/master/dump_SQL_table.sh </sub>
+> NEW! (09.10.2019): <code>dump_SQL_table.sh</code> This script is a template for dumping a table from one MySQL database to another MySQL database. <sub>https://github.com/BerniHacker/Linux/blob/master/dump_SQL_table.sh </sub>
 
 ### Portfolio of Data Analytics Projects
 

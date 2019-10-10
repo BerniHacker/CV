@@ -17,6 +17,8 @@ To access the HTML files, please use the links contained in the md files.
 
 > NEW! (09.10.2019): <code>dump_SQL_table.sh</code> This script is a template for dumping a table from one MySQL database to another MySQL database. <sub>https://github.com/BerniHacker/Linux/blob/master/dump_SQL_table.sh </sub>
 
+> NEW! (10.10.2019): <code>SQL_to_CSV.py</code> This script queries the full content of a defined table of a defined MySQL database (with defined credentials) and stores the result of the query temporarily into a pandas dataframe. The content of the dataframe is then dumped into a file with a defined name. The script allows handling "large data". Both the SQL query and the dump into the CSV file are performed in chunks according to pre-defined paramater values. <sub>https://github.com/BerniHacker/Python/blob/master/SQL_to_CSV.py</sub>
+
 ### Portfolio of Data Analytics Projects
 
 Topic                                             | Link   

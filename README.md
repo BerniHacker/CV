@@ -2,6 +2,7 @@
 
 This repository contains my CV and links to my portfolio of data analytics projects. Those links are grouped under the following topics:
 
+- Data Pipelining
 - Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization
 - Statistics: Inferential Methods
 - Prediction Models and Machine Learning

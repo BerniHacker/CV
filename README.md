@@ -2,7 +2,7 @@
 
 This repository contains my CV and links to my portfolio of data analytics projects. Those links are grouped under the following topics:
 
-- Data Pipelining
+- Data Dumping
 - Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization
 - Statistics: Inferential Methods
 - Prediction Models and Machine Learning
@@ -23,7 +23,7 @@ To access the HTML files, please use the links contained in the md files.
 
 Topic                                             | Link   
 --------------------------------------------------------------------- | ----------
-Data Pipelining | <sub> https://github.com/BerniHacker/CV/blob/master/DataPipelining.md </sub>
+Data Dumping | <sub> https://github.com/BerniHacker/CV/blob/master/DataPipelining.md </sub>
 Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization | <sub> https://github.com/BerniHacker/CV/blob/master/DataPreparation.md </sub>
 Statistics: Inferential Methods | <sub> https://github.com/BerniHacker/CV/blob/master/InferentialMethods.md </sub>
 Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV/blob/master/MachineLearning.md </sub>

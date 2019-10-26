@@ -23,7 +23,7 @@ To access the HTML files, please use the links contained in the md files.
 
 Topic                                             | Link   
 --------------------------------------------------------------------- | ----------
-Data Dumping | <sub> https://github.com/BerniHacker/CV/blob/master/DataPipelining.md </sub>
+Data Dumping | <sub> https://github.com/BerniHacker/CV/blob/master/DataDumping.md </sub>
 Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization | <sub> https://github.com/BerniHacker/CV/blob/master/DataPreparation.md </sub>
 Statistics: Inferential Methods | <sub> https://github.com/BerniHacker/CV/blob/master/InferentialMethods.md </sub>
 Prediction Models and Machine Learning | <sub> https://github.com/BerniHacker/CV/blob/master/MachineLearning.md </sub>

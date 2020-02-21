@@ -15,6 +15,8 @@ Note that a single project might be listed under more than one topic (for exampl
 
 To access the HTML files, please use the links contained in the md files.
 
+> NEW! (21.02.2020): <code>A_Prediction_Model_in_Python</code> This repository contains a Python project consisting in analyzing few data sets, fitting and evaluating different prediction models and making a prediction. <sub>https://github.com/BerniHacker/A_Prediction_Model_in_Python</sub>
+
 > NEW! (10.10.2019): <code>SQL_to_CSV.py</code> This script queries the full content of a defined table of a defined MySQL database (with defined credentials) and stores the result of the query temporarily into a pandas dataframe. The content of the dataframe is then dumped into a file with a defined name. The script allows handling "large data". Both the SQL query and the dump into the CSV file are performed in chunks according to pre-defined paramater values. <sub>https://github.com/BerniHacker/Python/blob/master/SQL_to_CSV.py</sub>
 
 > NEW! (09.10.2019): <code>dump_SQL_table.sh</code> This script is a template for dumping a table from one MySQL database to another MySQL database. The copy is done in chunks and therefore the script can be used also for huge tables. <sub>https://github.com/BerniHacker/Linux/blob/master/dump_SQL_table.sh </sub>

@@ -4,6 +4,7 @@ This is a list of few of my data analytics projects which contain Data Cleansing
 
 File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------
+<code>A_Prediction_Model_in_Python</code> This repository contains a Python project consisting in analyzing few data sets, fitting and evaluating different prediction models and making a prediction. | <sub>https://github.com/BerniHacker/A_Prediction_Model_in_Python</sub>
 <code>Time_Use_in_Finland</code> A Data Cleansing and Visualization Project in Python. | <sub>https://github.com/BerniHacker/Time_Use_in_Finland/blob/master/README.md</sub>
 <code>A_Data_Analysis_Project_in_R.html</code> This study uses publicly available data to create a research question for which first some exploratory data analysis is done and then inferential statistics is performed to verify if the possible correlations that have been found are statistically relevant. The file has been produced in R by using RStudio. | <sub>http://htmlpreview.github.io/?https://github.com/BerniHacker/R/blob/master/A_Data_Analysis_Project_in_R.html</sub>
 <code>Getting and Cleaning Data Project</code> This is a link to a repository containing a script to upload, clean and prepare some data sets. A Code Book is also contained. | <sub>https://github.com/BerniHacker/GettingAndCleaningData</sub>

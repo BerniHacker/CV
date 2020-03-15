@@ -15,6 +15,8 @@ Note that a single project might be listed under more than one topic (for exampl
 
 To access the HTML files, please use the links contained in the md files.
 
+> NEW! (updated daily): <code>Coronavirus Cases in Finland</code> This project contains visualizations realated to the spread of Coronavirus in Finland. All the code used to dump, complete, prepare and visualize the data in included. <sub>https://github.com/BerniHacker/Coronavirus/blob/master/README.md</sub>
+
 > NEW! (21.02.2020): <code>A_Prediction_Model_in_Python</code> This repository contains a Python project consisting in analyzing few data sets, fitting and evaluating different prediction models and making a prediction. The project is based on a completed Kaggle challenge and the result score would have been among the top 3 scores in the final competition. <sub>https://github.com/BerniHacker/A_Prediction_Model_in_Python/blob/master/README.md</sub>
 
 > NEW! (10.10.2019): <code>SQL_to_CSV.py</code> This script queries the full content of a defined table of a defined MySQL database (with defined credentials) and stores the result of the query temporarily into a pandas dataframe. The content of the dataframe is then dumped into a file with a defined name. The script allows handling "large data". Both the SQL query and the dump into the CSV file are performed in chunks according to pre-defined paramater values. <sub>https://github.com/BerniHacker/Python/blob/master/SQL_to_CSV.py</sub>

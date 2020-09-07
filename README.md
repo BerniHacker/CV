@@ -23,8 +23,6 @@ To access the HTML files, please use the links contained in the md files.
 
 > NEW! (09.10.2019): <code>dump_SQL_table.sh</code> This script is a template for dumping a table from one MySQL database to another MySQL database. The copy is done in chunks and therefore the script can be used also for huge tables. <sub>https://github.com/BerniHacker/Linux/blob/master/dump_SQL_table.sh</sub>
 
-> NEW! (06.03.2020): <code>ETL_Pipeline</code> The scope of this project is to build an ETL pipeline to extract data from a disk where CSV files are loaded daily. The purpose of the pipeline is to store the content of those files into a repository for further processing, together with some aggregate data. Cloud Computing is used for the repository (AWS EC2 instances and RDS instances). <sub>https://github.com/BerniHacker/ETL_Pipeline</sub>
-
 ### Portfolio of Data Analytics Projects
 
 Topic                                             | Link   

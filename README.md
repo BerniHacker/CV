@@ -28,7 +28,7 @@ To access the HTML files, please use the links contained in the md files.
 
 Topic                                             | Link   
 --------------------------------------------------------------------- | ----------
-Econometrics | <sub> https://github.com/BerniHacker/CV/blob/master/Econometrics.md </sub>
+Econometrics | <sub> https://github.com/BerniHacker/Econometrics/blob/master/Articulating_Business_Metrics_in_a_Business_Case_Study.pdf </sub>
 Data Dumping | <sub> https://github.com/BerniHacker/CV/blob/master/DataDumping.md </sub>
 Exploratory Data Analysis, Data Cleansing, Data Preparation and Data Visualization | <sub> https://github.com/BerniHacker/CV/blob/master/DataPreparation.md </sub>
 Statistics: Inferential Methods | <sub> https://github.com/BerniHacker/CV/blob/master/InferentialMethods.md </sub>

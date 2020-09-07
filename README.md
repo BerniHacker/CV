@@ -42,7 +42,7 @@ Shell Scripts | <sub> https://github.com/BerniHacker/Linux/blob/master/dump_SQL_
 
 File Name and Description                                             | Link   
 --------------------------------------------------------------------- | ----------
-<code>DiChiaraBernardoCV.pdf</code> CV | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCV_07032020.pdf</sub>
+<code>DiChiaraBernardoCV.pdf</code> CV | <sub>https://github.com/BerniHacker/CV/blob/master/DiChiaraBernardoCV_07092020.pdf</sub>
 <code>Self-CreatedCoursePlan.pdf</code> My self-created personalized study plan containing courses from well-known Universities on Coursera platform. The courses have a perfect balance of theory and practice and include a final project assignment. | <sub>https://github.com/BerniHacker/CV/blob/master/Self-CreatedCoursePlan.pdf</sub>
 <code>LinkedIn Profile</code> | <sub>http://fi.linkedin.com/in/bernardodichiara</sub>
 <code>Portfolio</code> The pdf version of this portal | <sub>https://github.com/BerniHacker/CV/blob/master/Portfolio_21022020.pdf</sub>
